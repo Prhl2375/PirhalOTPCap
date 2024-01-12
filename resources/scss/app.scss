@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap";
+
+.main_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.instruments_table{
+    width: 20%;
+}
+.benchmarks_table{
+    width: 75%;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.go_date_button{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+.pagination_bar{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.pagination{
+    margin-right: 50px;
+}
+
